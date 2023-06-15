@@ -11,7 +11,7 @@ public class Main {
         if (b == 0) {
             System.out.println("b равен " + b + " на ноль делить нельзя");
         }else {
-            int c = calc.devide.apply(a, b); // код не работает из-за деления на ноль. Можно решить как тут, или через перехват ошибок
+            int c = calc.devide.apply(a, b); // Код не работает из-за деления на ноль. Можно решить как тут, или через перехват ошибок
             calc.println.accept(c);
         }
     }
